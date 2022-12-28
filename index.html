@@ -8,7 +8,7 @@
             <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
 
             <!-- ======================= SWIPER CSS ===============================-->
-            <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css">
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
 
             <!-- =========================== CSS ==================================-->
             <link rel="stylesheet" href="./assets/css/style.css">
@@ -55,6 +55,11 @@
                             </li>
                         </ul>
                         <i class="uil uil-times nav__close" id="nav-close"></i>
+                    </div>
+
+                    <div class="nav__btns">
+                        <!-- Theme change Button -->
+                        <i class="uil uil-moon change-theme" id="theme-button"></i>
                     </div>
 
                     <div class="nav__btns">
@@ -658,72 +663,73 @@
                 <section class="handles section" id="handles">
                     <h2 class="section__title">Coding Handles</h2>
                     <span class="section__subtitle">Coding platforms I've used</span>
-                    
-                    <div class="handles__container container mySwiper">
-                        <div class="swiper-wrapper">
-                            <!-- ==================== CODING HANDLE 1 ==================== -->
-                            <div class="handles__content grid swiper-slide">
-                                <img src="./assets/img/leetcode.png" alt="" class="handles__img">
-
-                                <div class="handles__data">
-                                    <h3 class="handles__title">Leetcode</h3>
-                                    <p class="handles__description">Solved 325+ problems and have a rating of 1512 on Dec-27th, 2022.</p>
-                                    <a href="https://leetcode.com/the_kalakar/" class="button button--flex handles__button">
-                                        @the_kalakar
-                                        <i class="uil uil-arrow-right button__icon"></i>
-                                    </a>
+                    <div>
+                        <div class="handles__container container swiper-container">
+                            <div class="swiper-wrapper">
+                                <!-- ==================== CODING HANDLE 1 ==================== -->
+                                <div class="handles__content grid swiper-slide">
+                                    <img src="./assets/img/leetcode.png" alt="" class="handles__img">
+    
+                                    <div class="handles__data">
+                                        <h3 class="handles__title">Leetcode</h3>
+                                        <p class="handles__description">Solved 325+ problems and have a rating of 1512 on Dec-27th, 2022.</p>
+                                        <a href="https://leetcode.com/the_kalakar/" class="button button--flex handles__button">
+                                            the_kalakar
+                                            <i class="uil uil-arrow-right button__icon"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- ==================== CODING HANDLE 2 ==================== -->
+                                <div class="handles__content grid swiper-slide">
+                                    <img src="./assets/img/hackerrank.png" alt="" class="handles__img">
+    
+                                    <div class="handles__data">
+                                        <h3 class="handles__title">Hackerrank</h3>
+                                        <p class="handles__description">Rated 6* in problem solving and have solved over 200+ problems on Hackerrank.</p>
+                                        <a href="https://www.hackerrank.com/slow_n_steady" class="button button--flex button--small handles__button">
+                                            slow_n_steady
+                                            <i class="uil uil-arrow-right button__icon"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- ==================== CODING HANDLE 3 ==================== -->
+                                <div class="handles__content grid swiper-slide">
+                                    <img src="./assets/img/codeforces.png" alt="" class="handles__img">
+    
+                                    <div class="handles__data">
+                                        <h3 class="handles__title">Codeforces</h3>
+                                        <p class="handles__description">Solved 147+ problems and have a highest rating of Specialist - 1429. Current rating is 1203 on Dec-27th, 2022.</p>
+                                        <a href="https://codeforces.com/profile/Infinity23" class="button button--flex button--small handles__button">
+                                            @Infinity23
+                                            <i class="uil uil-arrow-right button__icon"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- ==================== CODING HANDLE 4 ==================== -->
+                                <div class="handles__content grid swiper-slide">
+                                    <img src="./assets/img/codechef.png" alt="" class="handles__img">
+    
+                                    <div class="handles__data">
+                                        <h3 class="handles__title">Codechef</h3>
+                                        <p class="handles__description">Rated 3* on Codechef with highest rating of 1696. Currently rated 1623 on Codechef on Dec 27th, 2022.</p>
+                                        <a href="https://www.codechef.com/users/the_kalakar" class="button button--flex button--small handles__button">
+                                            @the_kalakar
+                                            <i class="uil uil-arrow-right button__icon"></i>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
-                            <!-- ==================== CODING HANDLE 2 ==================== -->
-                            <div class="handles__content grid swiper-slide">
-                                <img src="./assets/img/hackerrank.png" alt="" class="handles__img">
-
-                                <div class="handles__data">
-                                    <h3 class="handles__title">Hackerrank</h3>
-                                    <p class="handles__description">Rated 6* in problem solving and have solved over 200+ problems on Hackerrank.</p>
-                                    <a href="https://www.hackerrank.com/slow_n_steady" class="button button--flex button--small handles__button">
-                                        @slow_n_steady
-                                        <i class="uil uil-arrow-right button__icon"></i>
-                                    </a>
-                                </div>
+    
+                            <!-- Add Arrows -->
+                            <div class="swiper-button-next">
+                                <i class="uil uil-angle-right-b swiper-handles-icon"></i>
                             </div>
-                            <!-- ==================== CODING HANDLE 3 ==================== -->
-                            <div class="handles__content grid swiper-slide">
-                                <img src="./assets/img/codeforces.png" alt="" class="handles__img">
-
-                                <div class="handles__data">
-                                    <h3 class="handles__title">Codeforces</h3>
-                                    <p class="handles__description">Solved 147+ problems and have a highest rating of Specialist - 1429. Current rating is 1203 on Dec-27th, 2022.</p>
-                                    <a href="https://codeforces.com/profile/Infinity23" class="button button--flex button--small handles__button">
-                                        @Infinity23
-                                        <i class="uil uil-arrow-right button__icon"></i>
-                                    </a>
-                                </div>
+                            <div class="swiper-button-prev">
+                                <i class="uil uil-angle-left-b swiper-handles-icon"></i>
                             </div>
-                            <!-- ==================== CODING HANDLE 4 ==================== -->
-                            <div class="handles__content grid swiper-slide">
-                                <img src="./assets/img/codechef.png" alt="" class="handles__img">
-
-                                <div class="handles__data">
-                                    <h3 class="handles__title">Codechef</h3>
-                                    <p class="handles__description">Rated 3* on Codechef with highest rating of 1696. Currently rated 1623 on Codechef on Dec 27th, 2022.</p>
-                                    <a href="https://www.codechef.com/users/the_kalakar" class="button button--flex button--small handles__button">
-                                        @the_kalakar
-                                        <i class="uil uil-arrow-right button__icon"></i>
-                                    </a>
-                                </div>
-                            </div>
+                            <!-- Add pagination -->
+                            <div class="swiper-pagination"></div>
                         </div>
-
-                        <!-- Add Arrows -->
-                        <div class="swiper-button-next">
-
-                        </div>
-                        <div class="swiper-button-prev">
-                            
-                        </div>
-                        <!-- Add pagination -->
-                        <div class="swiper-pagination"></div>
                     </div>
                 </section>
     
