@@ -96,8 +96,8 @@ modelCloses.forEach((modelClose) =>{
     });
 });
 
-/*==================== PORTFOLIO SWIPER  ====================*/
-
+/*==================== HANDLES SWIPER  ====================*/
+/* Was not working last time */
 
 /*==================== TESTIMONIAL ====================*/
 

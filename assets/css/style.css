@@ -386,6 +386,11 @@ img {
     color: var(--first-color-alt);
 }
 
+.handles__button{
+    padding: 0.5rem 0.75rem;
+    margin-bottom: var(--mb-1);
+}
+
 /*==================== ABOUT ====================*/
 .about__img{
     width: 200px;
@@ -743,8 +748,34 @@ img {
 }
 
 
-/*==================== PORTFOLIO ====================*/
+/*==================== HANDLES ====================*/
+.handles__container{
+    overflow: initial;
+}
 
+.handles__content{
+    padding: 0 1.5rem;
+}
+
+.handles__img{
+    width: 150px;
+    border-radius: 0.5rem;
+    justify-self: center;
+    margin-bottom: -0.5rem;
+}
+
+.handles__title{
+    font-size: var(--h3-font-size);
+    margin-bottom: var(--mb-0-5);
+}
+
+.handles__description{
+    margin-bottom: var(--mb-0-75);
+}
+
+.handles__button:hover .button__icon{
+    transform: translate(0.25rem);
+}
 
 /*==================== HIRE ME ====================*/
 .hireme{
