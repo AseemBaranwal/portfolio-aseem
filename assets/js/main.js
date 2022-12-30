@@ -162,3 +162,14 @@ themeButton.addEventListener('click', () => {
     localStorage.setItem('selected-theme', getCurrentTheme())
     localStorage.setItem('selected-icon', getCurrentIcon())
 })
+
+/*==================================== Contact Form Changes ==================================*/
+const FormButton = document.getElementById('FormButton');
+const contactName = document.getElementById('contactName');
+const contactEmail = document.getElementById('contactEmail');
+const contactSubject = document.getElementById('contactSubject');
+
+FormButton.addEventListener('click', ()=>{
+    var contactForm = document.getElementById('contactForm');
+    if(contactName.value && contactEmail.value && contactSubject.value) contactForm.innerHTML = "Thank you for your message! I'll reply back in a short while";
+});

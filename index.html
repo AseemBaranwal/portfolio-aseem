@@ -14,6 +14,7 @@
             <link rel="stylesheet" href="./assets/css/style.css">
 
             <title>Aseem Baranwal</title>
+            <link rel="icon" type="image/x-icon" href="/assets/img/icon.png">
         </head>
         <body>
             <!--=========================== HEADER ================================-->
@@ -114,7 +115,7 @@
 
                             <div class="home__data">
                                 <h1 class="hme__title">Hi, I'm Aseem</h1>
-                                <h3 class="home__subtitle">Backend/Full Stack Developer</h3>
+                                <h3 class="home__subtitle">Full Stack Developer/Machine Learning Enthusiast</h3>
                                 <p class="home__description">Graduate Student pursuing Computer Science at University of Florida skilled in Software Development and Machine Learning. </p>
                                 <a href="#contact" class="button button--flex">
                                     Contact Me <i class="uil uil-message button__icon"></i>
@@ -141,7 +142,8 @@
                         <img src="assets/img/about.jpg" alt="" class="about__img">
 
                         <div class="about__data">
-                            <p class="about__description">Graduate Student at University of Florida previously worked as an AR Developer and a Full-Stack Software Developer. Proficient in data structures and algorithms and is a machine learning enthusiast.</p>
+                            <p class="about__description">Hi I'm Aseem Baranwal. I'm currently pursuing my graduate degree in computer science from the University of Florida ranked 5th in the United States' best public universities. I am skilled in software development and Machine Learning. I have previously worked for Tata Consultancy Services in the past as a software developer and have worked as an AR developer for School of Innovation. I'm proficient in data structures and algorithms and can efficienly maintain your system resources by writing optimized code :)</p> 
+                            <p><b>I am currently looking for summer intern positions serving as a software developer in backend/Data Analyst. <a href="#contact">Hit me up</a> if you think you have a job role that I fit in.</b></p>
 
                             <div class="about__info">
                                 <div>
@@ -274,7 +276,7 @@
                                     <i class="uil uil-brain skills__icon"></i>
 
                                     <div>
-                                        <h1 class="skills__title">Data Engineer</h1>
+                                        <h1 class="skills__title">Data Analyst</h1>
                                         <span class="skills__subtitle">More than 2 personal projects</span>
                                     </div>
 
@@ -793,33 +795,34 @@
                             </div>
                         </div>
 
-                        <form action="" class="contact_form grid">
+                        <form action="https://formsubmit.co/aseembaranwal23@gmail.com" method="POST" class="contact__form grid" id="contactForm">
+                            <input type="hidden" name="_next" value="#contact">
                             <div class="contact__inputs grid">
                                 <div class="contact__content">
-                                    <label for="" class="contact__label">Name</label>
-                                    <input type="text" class="contact__input">
+                                    <label for="" class="contact__label" id="contactName">Name<span class="contact__mandatory">*</span></label>
+                                    <input type="text" name="name" class="contact__input" required>
                                 </div>
                                 <div class="contact__content">
-                                    <label for="" class="contact__label">Email</label>
-                                    <input type="email" class="contact__input">
+                                    <label for="" class="contact__label" id="contactEmail">Email<span class="contact__mandatory">*</span></label>
+                                    <input type="email" name="email" class="contact__input" required>
                                 </div>
                             </div>
                             <div class="contact__content">
-                                <label for="" class="contact__label">Subject</label>
-                                <input type="email" class="contact__input">
+                                <label for="" class="contact__label" id="contactSubject">Subject<span class="contact__mandatory">*</span></label>
+                                <input type="text" name="_subject" class="contact__input" required>
                             </div>
                             <div class="contact__content">
                                 <label for="" class="contact__label">Message</label>
-                                <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
+                                <textarea name="mailbody" id="" cols="0" rows="7" class="contact__input"></textarea>
                             </div>
-
+                            <input type="hidden" name="_captcha" value="false">
                             <div>
-                                <a href="#" class="button button--flex">
+                                <button type="submit" class="button button--flex button--send" id="FormButton">
                                     Send Message
                                     <i class="uil uil-message button__icon">
 
                                     </i>
-                                </a>
+                                </button>
                             </div>
                         </form>
                     </div>

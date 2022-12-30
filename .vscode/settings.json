@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/859d29a8-e7f0-4235-a408-22e14bfb9abf/AppServices/subscriptions/859d29a8-e7f0-4235-a408-22e14bfb9abf/resourceGroups/Aseem_RG/providers/Microsoft.Web/sites/aseem-baranwal",
+    "appService.deploySubpath": "."
+}

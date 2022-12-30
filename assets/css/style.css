@@ -418,6 +418,12 @@ img {
     margin-bottom: var(--mb-1);
 }
 
+.button--send{
+    font-size: var(--font-medium);
+    border: 0 0 var(--first-color);
+    cursor: pointer;
+}
+
 /*==================== ABOUT ====================*/
 .about__img{
     width: 200px;
@@ -909,6 +915,10 @@ img {
     border: none;
     outline: none;
     padding: 0.25rem 0.5rem 0.5rem 0;
+}
+
+.contact__mandatory{
+    color: red;
 }
 
 /*==================== FOOTER ====================*/
