@@ -473,7 +473,6 @@ img {
 }
 
 .URL-link:hover{
-    color: var(--first-color-second);
     font-size: var(--h3-font-size);
     transition: 0.5s;
 }
