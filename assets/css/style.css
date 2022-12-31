@@ -936,13 +936,8 @@ img {
 }
 
 .contact__link{
-    color: var(--text-color);
-}
-
-.contact__link:hover{
     color: var(--text-color-light);
 }
-
 /*==================== FOOTER ====================*/
 
 .footer{
