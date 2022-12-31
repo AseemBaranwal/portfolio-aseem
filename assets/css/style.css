@@ -191,11 +191,15 @@ img {
 .nav__logo,
 .nav__toggle{
     color: var(--title-color);
-    font-weight: var(--font-medium);
-
+    font-weight: 700;
 }
 
-.nav__logo:hover{
+.nav__link{
+    color: var(--title-color);
+}
+
+.nav__logo:hover,
+.nav__link:hover{
     color: var(--first-color);
 }
 
@@ -462,6 +466,16 @@ img {
 .about__buttons{
     display: flex;
     justify-content: center;
+}
+
+.URL-link{
+    color: var(--first-color);
+}
+
+.URL-link:hover{
+    color: var(--first-color-second);
+    font-size: var(--h3-font-size);
+    transition: 0.5s;
 }
 
 /*==================== SKILLS ====================*/
@@ -919,6 +933,14 @@ img {
 
 .contact__mandatory{
     color: red;
+}
+
+.contact__link{
+    color: var(--text-color);
+}
+
+.contact__link:hover{
+    color: var(--text-color-light);
 }
 
 /*==================== FOOTER ====================*/

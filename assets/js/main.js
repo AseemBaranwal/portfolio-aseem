@@ -171,5 +171,5 @@ const contactSubject = document.getElementById('contactSubject');
 
 FormButton.addEventListener('click', ()=>{
     var contactForm = document.getElementById('contactForm');
-    if(contactName.value && contactEmail.value && contactSubject.value) contactForm.innerHTML = "Thank you for your message! I'll reply back in a short while";
+    if(contactName.value && contactEmail.value && contactSubject.value) contactForm.innerHTML = "Thank you for your message! I will reply to it once I get back. Hope you have a great day ahead :)";
 });
