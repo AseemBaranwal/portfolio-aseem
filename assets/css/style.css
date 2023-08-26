@@ -551,7 +551,10 @@ img {
     width: 60%;
 }
 .skills__spring{
-    width: 35%;
+    width: 85%;
+}
+.skills__springboot{
+    width: 65%;
 }
 .skills__hibernate{
     width: 40%;
@@ -566,7 +569,10 @@ img {
     width: 65%;
 }
 .skills__react{
-    width: 30%;
+    width: 50%;
+}
+.skills__vue{
+    width: 60%;
 }
 .skills__sql{
     width: 75%;
